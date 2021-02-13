@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--3rd party libraries-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script type="text/javascript" src="./app/validate.js">  </script>
+
+</head>
+
+<body>
+    <h1 class='hod'>MemeStream</h1>
+    <div class='up'>
+        
+        <form name="Form" action='https://qmeme-project.herokuapp.com/memes' onsubmit="return validateForm()" method='POST' >
+        <div class="form-floating">
+            <input name ='name'type="text" class="form-control" id="fname" placeholder="Name">
+            <label for="fname">Enter Your Name </label>
+        </div>
+        <br>
+        <div class="form-floating">
+            <textarea name ='caption' class="form-control" placeholder="Leave a comment here" id="ftarea"></textarea>
+            <label for="ftarea">Comments</label>
+        </div>
+        <br>
+        <div class="form-floating ">
+            <textarea name ='url' class="form-control" placeholder="URL" id="furl"></textarea>
+            <label for="furl">Enter the url</label>
+        </div>
+        <br>
+        <button type="submit" class='btn btn-success' value='submit'>Submit</button>
+       </form>
+    
+    </div>
+    <hr>
+    <div id="content">
+        
+    </div>
+    <script src="./app/all-posts.js"></script>
+    <script>
+      loadPosts()
+    </script>
+</body>
+
+
+
+</html>
