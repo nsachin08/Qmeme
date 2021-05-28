@@ -19,7 +19,7 @@ function loadPosts() {
             </div>
             </div>
             </div>
-            <img class="card-img-top" src="${filterXSS(p.url)}">
+            <img class="card-img-top" src="${filterXSS(p.url)} onerror="if (this.src != 'https://i.ibb.co/3fs2L5C/image.png') this.src = 'https://i.ibb.co/3fs2L5C/image.png';"">
             </div>
           `)
         )
