@@ -15,5 +15,5 @@ Step 3: Press the Submit Button .
 
 # Features 
  - Users can use the following functionality .
-        - Create a post
-        - Delete a post
+   - Create  a new post.
+   - Delete  a post .
