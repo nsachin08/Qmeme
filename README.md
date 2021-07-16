@@ -14,6 +14,6 @@ Step 2: Fill the Form with valid data.
 Step 3: Press the Submit Button .
 
 # Features 
- - Users can use the following functionality 
+ - Users can use the following functionality .
         - Create a post
         - Delete a post
