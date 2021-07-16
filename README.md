@@ -17,3 +17,9 @@ Step 3: Press the Submit Button .
  - Users can use the following functionality .
    - Create  a new post.
    - Delete  a post .
+
+# Technology Used :
+  - Backend 
+    - NodesJS, Express.
+  - FrontEnd 
+    - Jquery, HTML, CSS ,EJS
