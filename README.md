@@ -12,3 +12,8 @@ Step 2: Fill the Form with valid data.
         B. Enter the descciption you want .
         C . Enter the URL : In URL field , paste the URL of the image with .png , .jpg (make sure the URL has .png , /jpg , .jpeg at the ending.)
 Step 3: Press the Submit Button .
+
+# Features 
+ - Users can use the following functionality 
+        - Create a post
+        - Delete a post
